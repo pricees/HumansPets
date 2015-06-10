@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DC1BE11B28DF2B00A63809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1BE01B28DF2B00A63809 /* AppDelegate.swift */; };
+		55DC1BE31B28DF2B00A63809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1BE21B28DF2B00A63809 /* ViewController.swift */; };
+		55DC1BE61B28DF2B00A63809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DC1BE41B28DF2B00A63809 /* Main.storyboard */; };
+		55DC1BE81B28DF2B00A63809 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DC1BE71B28DF2B00A63809 /* Images.xcassets */; };
+		55DC1BEB1B28DF2B00A63809 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DC1BE91B28DF2B00A63809 /* LaunchScreen.xib */; };
+		55DC1BF71B28DF2B00A63809 /* HumansPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1BF61B28DF2B00A63809 /* HumansPetsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DC1BF11B28DF2B00A63809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DC1BD31B28DF2B00A63809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DC1BDA1B28DF2B00A63809;
+			remoteInfo = HumansPets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55DC1BDB1B28DF2B00A63809 /* HumansPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumansPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DC1BDF1B28DF2B00A63809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DC1BE01B28DF2B00A63809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55DC1BE21B28DF2B00A63809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55DC1BE51B28DF2B00A63809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DC1BE71B28DF2B00A63809 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55DC1BEA1B28DF2B00A63809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55DC1BF01B28DF2B00A63809 /* HumansPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumansPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DC1BF51B28DF2B00A63809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DC1BF61B28DF2B00A63809 /* HumansPetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumansPetsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DC1BD81B28DF2B00A63809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC1BED1B28DF2B00A63809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DC1BD21B28DF2B00A63809 = {
+			isa = PBXGroup;
+			children = (
+				55DC1BDD1B28DF2B00A63809 /* HumansPets */,
+				55DC1BF31B28DF2B00A63809 /* HumansPetsTests */,
+				55DC1BDC1B28DF2B00A63809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DC1BDC1B28DF2B00A63809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DC1BDB1B28DF2B00A63809 /* HumansPets.app */,
+				55DC1BF01B28DF2B00A63809 /* HumansPetsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DC1BDD1B28DF2B00A63809 /* HumansPets */ = {
+			isa = PBXGroup;
+			children = (
+				55DC1BE01B28DF2B00A63809 /* AppDelegate.swift */,
+				55DC1BE21B28DF2B00A63809 /* ViewController.swift */,
+				55DC1BE41B28DF2B00A63809 /* Main.storyboard */,
+				55DC1BE71B28DF2B00A63809 /* Images.xcassets */,
+				55DC1BE91B28DF2B00A63809 /* LaunchScreen.xib */,
+				55DC1BDE1B28DF2B00A63809 /* Supporting Files */,
+			);
+			path = HumansPets;
+			sourceTree = "<group>";
+		};
+		55DC1BDE1B28DF2B00A63809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DC1BDF1B28DF2B00A63809 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55DC1BF31B28DF2B00A63809 /* HumansPetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DC1BF61B28DF2B00A63809 /* HumansPetsTests.swift */,
+				55DC1BF41B28DF2B00A63809 /* Supporting Files */,
+			);
+			path = HumansPetsTests;
+			sourceTree = "<group>";
+		};
+		55DC1BF41B28DF2B00A63809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DC1BF51B28DF2B00A63809 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DC1BDA1B28DF2B00A63809 /* HumansPets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DC1BFA1B28DF2B00A63809 /* Build configuration list for PBXNativeTarget "HumansPets" */;
+			buildPhases = (
+				55DC1BD71B28DF2B00A63809 /* Sources */,
+				55DC1BD81B28DF2B00A63809 /* Frameworks */,
+				55DC1BD91B28DF2B00A63809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumansPets;
+			productName = HumansPets;
+			productReference = 55DC1BDB1B28DF2B00A63809 /* HumansPets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DC1BEF1B28DF2B00A63809 /* HumansPetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DC1BFD1B28DF2B00A63809 /* Build configuration list for PBXNativeTarget "HumansPetsTests" */;
+			buildPhases = (
+				55DC1BEC1B28DF2B00A63809 /* Sources */,
+				55DC1BED1B28DF2B00A63809 /* Frameworks */,
+				55DC1BEE1B28DF2B00A63809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DC1BF21B28DF2B00A63809 /* PBXTargetDependency */,
+			);
+			name = HumansPetsTests;
+			productName = HumansPetsTests;
+			productReference = 55DC1BF01B28DF2B00A63809 /* HumansPetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DC1BD31B28DF2B00A63809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = dave;
+				TargetAttributes = {
+					55DC1BDA1B28DF2B00A63809 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					55DC1BEF1B28DF2B00A63809 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 55DC1BDA1B28DF2B00A63809;
+					};
+				};
+			};
+			buildConfigurationList = 55DC1BD61B28DF2B00A63809 /* Build configuration list for PBXProject "HumansPets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DC1BD21B28DF2B00A63809;
+			productRefGroup = 55DC1BDC1B28DF2B00A63809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DC1BDA1B28DF2B00A63809 /* HumansPets */,
+				55DC1BEF1B28DF2B00A63809 /* HumansPetsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DC1BD91B28DF2B00A63809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC1BE61B28DF2B00A63809 /* Main.storyboard in Resources */,
+				55DC1BEB1B28DF2B00A63809 /* LaunchScreen.xib in Resources */,
+				55DC1BE81B28DF2B00A63809 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC1BEE1B28DF2B00A63809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DC1BD71B28DF2B00A63809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC1BE31B28DF2B00A63809 /* ViewController.swift in Sources */,
+				55DC1BE11B28DF2B00A63809 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DC1BEC1B28DF2B00A63809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DC1BF71B28DF2B00A63809 /* HumansPetsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DC1BF21B28DF2B00A63809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DC1BDA1B28DF2B00A63809 /* HumansPets */;
+			targetProxy = 55DC1BF11B28DF2B00A63809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DC1BE41B28DF2B00A63809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DC1BE51B28DF2B00A63809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DC1BE91B28DF2B00A63809 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DC1BEA1B28DF2B00A63809 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DC1BF81B28DF2B00A63809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DC1BF91B28DF2B00A63809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DC1BFB1B28DF2B00A63809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HumansPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55DC1BFC1B28DF2B00A63809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HumansPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55DC1BFE1B28DF2B00A63809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumansPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumansPets.app/HumansPets";
+			};
+			name = Debug;
+		};
+		55DC1BFF1B28DF2B00A63809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HumansPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumansPets.app/HumansPets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DC1BD61B28DF2B00A63809 /* Build configuration list for PBXProject "HumansPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC1BF81B28DF2B00A63809 /* Debug */,
+				55DC1BF91B28DF2B00A63809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DC1BFA1B28DF2B00A63809 /* Build configuration list for PBXNativeTarget "HumansPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC1BFB1B28DF2B00A63809 /* Debug */,
+				55DC1BFC1B28DF2B00A63809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55DC1BFD1B28DF2B00A63809 /* Build configuration list for PBXNativeTarget "HumansPetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DC1BFE1B28DF2B00A63809 /* Debug */,
+				55DC1BFF1B28DF2B00A63809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DC1BD31B28DF2B00A63809 /* Project object */;
+}
