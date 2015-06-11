@@ -12,8 +12,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-    
     
     func application(application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -30,10 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // Individual pet noise
             tom.petNoise = "Meow, meow, meow!!!"
             tom.petNoise = tom.makeNoise(5)
-//            println("name: \(tom.petName)")
-//            println("canMakeNoise: \(tom.canMakeNoise)")
-//            println("noise: \(tom.petNoise)")
-//            println("eat: \(tom.eat())")
             
             pets.append(tom)
             
@@ -42,10 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             felix.petName = "Felix"
             felix.canMakeNoise = false
             felix.petNoise = felix.makeNoise(0)
-//            println("name: \(felix.petName)")
-//            println("canMakeNoise: \(felix.canMakeNoise)")
-//            println("\(felix.petNoise)")
-//            println("eat: \(felix.eat())")
             
             pets.append(felix)
             
@@ -55,10 +45,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             dug.canMakeNoise = true
             dug.petNoise = "SQUIRREL, SQUIRREL, SQUIRREL!!!"
             dug.petNoise = dug.makeNoise(2)
-//            println("name: \(dug.petName)")
-//            println("canMakeNoise: \(dug.canMakeNoise)")
-//            println("\(dug.petNoise)")
-//            println("eat: \(dug.eat())")
             
             pets.append(dug)
             
@@ -85,10 +71,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             dave.name = "Dave"
             dave.pet = sybil
             dave.makePetMakeNoise(0)
-//            println("name: \(dave.pet!.petName)")
-//            println("canMakeNoise: \(dave.pet!.canMakeNoise)")
-//            println("\(dave.pet!.petNoise)")
-//            println("eat: \(dave.pet!.eat())")
             
             humans.append(dave)
             
@@ -97,10 +79,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             candice.name = "Candice"
             candice.pet = dug
             candice.makePetMakeNoise(0)
-//            println("name: \(candice.pet!.petName)")
-//            println("canMakeNoise: \(candice.pet!.canMakeNoise)")
-//            println("\(candice.pet!.petNoise)")
-//            println("eat: \(candice.pet!.eat())")
             
             humans.append(candice)
 
@@ -110,10 +88,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             matt.name = "Matt"
             matt.pet = tom
             matt.makePetMakeNoise(0)
-//            println("name: \(matt.pet!.petName)")
-//            println("canMakeNoise: \(matt.pet!.canMakeNoise)")
-//            println("\(matt.pet!.petNoise)")
-//            println("eat: \(matt.pet!.eat())")
             
             humans.append(matt)
 
@@ -122,17 +96,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             estella.name = "Estella"
             estella.pet = felix
             estella.makePetMakeNoise(0)
-//            println("name: \(estella.pet!.petName)")
-//            println("canMakeNoise: \(estella.pet!.canMakeNoise)")
-//            println("\(estella.pet!.petNoise)")
-//            println("eat: \(estella.pet!.eat())")
             
             humans.append(estella)
         }
         
         setupArrays()
         
-            
         // Print out human array
         for var i = 0; i < humans.count; i++ {
             println("\n")
