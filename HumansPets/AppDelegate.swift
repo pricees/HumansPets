@@ -13,9 +13,137 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
+    
+    func application(application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        // Initialize arrays
+        var humans:[Human] = []
+        var pets:[Pet] = []
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        func setupArrays() {
+        
+            // Create a cat
+            var tom = Cat()
+            tom.petName = "Tom"
+            tom.canMakeNoise = true
+            // Individual pet noise
+            tom.petNoise = "Meow, meow, meow!!!"
+            tom.petNoise = tom.makeNoise(5)
+//            println("name: \(tom.petName)")
+//            println("canMakeNoise: \(tom.canMakeNoise)")
+//            println("noise: \(tom.petNoise)")
+//            println("eat: \(tom.eat())")
+            
+            pets.append(tom)
+            
+            // Create another cat
+            var felix = Cat()
+            felix.petName = "Felix"
+            felix.canMakeNoise = false
+            felix.petNoise = felix.makeNoise(0)
+//            println("name: \(felix.petName)")
+//            println("canMakeNoise: \(felix.canMakeNoise)")
+//            println("\(felix.petNoise)")
+//            println("eat: \(felix.eat())")
+            
+            pets.append(felix)
+            
+            // Create a dog
+            var dug = Dog()
+            dug.petName = "Dug"
+            dug.canMakeNoise = true
+            dug.petNoise = "SQUIRREL, SQUIRREL, SQUIRREL!!!"
+            dug.petNoise = dug.makeNoise(2)
+//            println("name: \(dug.petName)")
+//            println("canMakeNoise: \(dug.canMakeNoise)")
+//            println("\(dug.petNoise)")
+//            println("eat: \(dug.eat())")
+            
+            pets.append(dug)
+            
+            // Create another dog
+            var sybil = Dog()
+            sybil.petName = "Sybil"
+            sybil.canMakeNoise = false
+            sybil.petNoise = sybil.makeNoise(0)
+            
+            pets.append(sybil)
+
+            // Create another dog
+            var neve = Dog()
+            neve.petName = "Neve"
+            neve.canMakeNoise = true
+            neve.petNoise = "Arf, arf, arf!"
+            neve.petNoise = neve.makeNoise(3)
+            
+            pets.append(neve)
+  
+        
+            // Create a human
+            var dave = Human()
+            dave.name = "Dave"
+            dave.pet = sybil
+            dave.makePetMakeNoise(0)
+//            println("name: \(dave.pet!.petName)")
+//            println("canMakeNoise: \(dave.pet!.canMakeNoise)")
+//            println("\(dave.pet!.petNoise)")
+//            println("eat: \(dave.pet!.eat())")
+            
+            humans.append(dave)
+            
+            // Create another human
+            var candice = Human()
+            candice.name = "Candice"
+            candice.pet = dug
+            candice.makePetMakeNoise(0)
+//            println("name: \(candice.pet!.petName)")
+//            println("canMakeNoise: \(candice.pet!.canMakeNoise)")
+//            println("\(candice.pet!.petNoise)")
+//            println("eat: \(candice.pet!.eat())")
+            
+            humans.append(candice)
+
+            
+            // Create another human
+            var matt = Human()
+            matt.name = "Matt"
+            matt.pet = tom
+            matt.makePetMakeNoise(0)
+//            println("name: \(matt.pet!.petName)")
+//            println("canMakeNoise: \(matt.pet!.canMakeNoise)")
+//            println("\(matt.pet!.petNoise)")
+//            println("eat: \(matt.pet!.eat())")
+            
+            humans.append(matt)
+
+            // Create another human
+            var estella = Human()
+            estella.name = "Estella"
+            estella.pet = felix
+            estella.makePetMakeNoise(0)
+//            println("name: \(estella.pet!.petName)")
+//            println("canMakeNoise: \(estella.pet!.canMakeNoise)")
+//            println("\(estella.pet!.petNoise)")
+//            println("eat: \(estella.pet!.eat())")
+            
+            humans.append(estella)
+        }
+        
+        setupArrays()
+        
+            
+        // Print out human array
+        for var i = 0; i < humans.count; i++ {
+            println("\n")
+            //println("human name: \(humans[i].name)")
+            //println("pet name: \(humans[i].pet!.petName)")
+            //println("pet canMakeNoise: \(humans[i].pet!.canMakeNoise)")
+            println("\(humans[i].pet!.petNoise)")
+            println("\(humans[i].feedPet())")
+        }
+        println("\n")
+        println("The total number of humans is: \(humans.count)")
         return true
     }
 

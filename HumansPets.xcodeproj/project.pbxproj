@@ -13,6 +13,10 @@
 		55DC1BE81B28DF2B00A63809 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DC1BE71B28DF2B00A63809 /* Images.xcassets */; };
 		55DC1BEB1B28DF2B00A63809 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DC1BE91B28DF2B00A63809 /* LaunchScreen.xib */; };
 		55DC1BF71B28DF2B00A63809 /* HumansPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1BF61B28DF2B00A63809 /* HumansPetsTests.swift */; };
+		55DC1C031B28E6D700A63809 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1C021B28E6D700A63809 /* Human.swift */; };
+		55DC1C051B28EA1200A63809 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1C041B28EA1200A63809 /* Pet.swift */; };
+		55DC1C0D1B28EAB400A63809 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1C0C1B28EAB400A63809 /* Cat.swift */; };
+		55DC1C0F1B28EABF00A63809 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC1C0E1B28EABF00A63809 /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		55DC1BF01B28DF2B00A63809 /* HumansPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumansPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DC1BF51B28DF2B00A63809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DC1BF61B28DF2B00A63809 /* HumansPetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumansPetsTests.swift; sourceTree = "<group>"; };
+		55DC1C021B28E6D700A63809 /* Human.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		55DC1C041B28EA1200A63809 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		55DC1C0C1B28EAB400A63809 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		55DC1C0E1B28EABF00A63809 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				55DC1BE01B28DF2B00A63809 /* AppDelegate.swift */,
+				55DC1C0C1B28EAB400A63809 /* Cat.swift */,
+				55DC1C0E1B28EABF00A63809 /* Dog.swift */,
+				55DC1C021B28E6D700A63809 /* Human.swift */,
+				55DC1C041B28EA1200A63809 /* Pet.swift */,
 				55DC1BE21B28DF2B00A63809 /* ViewController.swift */,
 				55DC1BE41B28DF2B00A63809 /* Main.storyboard */,
 				55DC1BE71B28DF2B00A63809 /* Images.xcassets */,
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DC1C051B28EA1200A63809 /* Pet.swift in Sources */,
+				55DC1C0F1B28EABF00A63809 /* Dog.swift in Sources */,
 				55DC1BE31B28DF2B00A63809 /* ViewController.swift in Sources */,
+				55DC1C0D1B28EAB400A63809 /* Cat.swift in Sources */,
 				55DC1BE11B28DF2B00A63809 /* AppDelegate.swift in Sources */,
+				55DC1C031B28E6D700A63809 /* Human.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				55DC1BFC1B28DF2B00A63809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55DC1BFD1B28DF2B00A63809 /* Build configuration list for PBXNativeTarget "HumansPetsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				55DC1BFF1B28DF2B00A63809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
